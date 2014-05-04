@@ -1,0 +1,24 @@
+#include<stdio.h>
+
+main(){
+      int num=0, result=0, multi;
+      char resp;
+      
+      resp = 's';
+      
+      while(resp== 's' || resp == 'S'){
+      system("cls");             
+      printf("Informe numero: ");
+      scanf("%i", &num);
+      system("cls");
+      for(multi=1; multi <=10; multi++){
+                   result = num*multi;
+                   printf("%i x ", num);
+                   printf("%i", multi);
+                   printf("= %i\n", result);
+                   }
+                       
+                   printf("\nDeseja continuar, (S)im ou (N)ao: ");
+                                 scanf("%s", &resp);};
+                   }
+      
